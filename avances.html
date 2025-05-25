@@ -1,93 +1,131 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Avances - Pagina avances</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
+  </head>
 
-<body class="flex flex-col h-screen ">
-
-<header>
-    <nav class="bg-orange-600 text-white flex justify-between p-4 items-center">
+  <body class="flex flex-col h-screen">
+    <header>
+      <nav
+        class="bg-orange-400 text-white flex justify-between p-4 items-center"
+      >
         <h1><a href="index.html">Parque -Nombre-</a></h1>
         <button id="menu-toggle" class="block md:hidden focus:outline-none">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-            </svg>
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
         </button>
         <ul id="menu" class="hidden md:flex gap-2">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="proyecto.html">Proyecto</a></li>
-            <li><a href="avances.html">Avances</a></li>
-            <li><a href="equipo.html">Equipo</a></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="proyecto.html">Proyecto</a></li>
+          <li><a href="avances.html">Avances</a></li>
+          <li><a href="equipo.html">Equipo</a></li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<main>
-    <section class="bg-gray-100 p-6 shadow-md mt-0 pt-0">
-        <h2 class="text-2xl font-bold mb-4">Propuesta del proyecto</h2>
-        <ul class="list-disc pl-5">
-            <li class="mb-2"> Actividad principal de la organzación. </li>
-            <li class="mb-2"> Objetivos del sitio web. </li>
-            <li class="mb-2"> Concepto general y estratejias de atracción </li>
-            <li class="mb-2"> Analisis del publico objetivo (edad, interes, habitos, etc.)</li>
+    <main class="bg-gray-50">
+      <section
+        class="flex flex-col items-center text-center border-b border-orange-900 p-6 gap-4"
+      >
+        <h2 class="text-2xl font-semibold underline">Propuesta del proyecto</h2>
+        <ul class="flex flex-col gap-2 text-xl">
+          <li>Actividad principal de la organzación.</li>
+          <li>Objetivos del sitio web.</li>
+          <li>Concepto general y estratejias de atracción</li>
+          <li>Analisis del publico objetivo (edad, interes, habitos, etc.)</li>
         </ul>
-    </section>   
+      </section>
 
-    <section class="bg-orange-600 p-6 shadow-md mt-0 pt-0 text-center">
-        <h2 class="text-2xl font-bold mb-4">Identidad visual</h2>
-        <div class="flex justify-between gap-4 max-w-4xl mx-auto">
-
-            <div class="flex flex-col items-center">
-              <h3 class=" mb-2 font-semibold">Color 1</h3>
-              <div class="w-24 h-16 bg-orange-600 rounded-md shadow-md border-1"></div>
-            </div>
-        
-            <div class="flex flex-col items-center">
-              <h3 class=" mb-2 font-semibold">Color 2</h3>
-              <div class="w-24 h-16 bg-orange-500 rounded-md shadow-md border-1"></div>
-            </div>
-        
-            <div class="flex flex-col items-center">
-              <h3 class=" mb-2 font-semibold">Color 3</h3>
-              <div class="w-24 h-16 bg-sky-700 rounded-md shadow-md border-1"></div>
-            </div>
-        
-            
-            <div class="flex flex-col items-center">
-              <h3 class=" mb-2 font-semibold">Color 4</h3>
-              <div class="w-24 h-16 bg-blue-900 rounded-md shadow-md border-1"></div>
-            </div>
+      <section
+        class="flex flex-col items-center gap-4 p-6 text-center border-b-2 border-orange-900"
+      >
+        <h2 class="text-2xl font-semibold underline">Identidad visual</h2>
+        <div class="flex flex-col md:flex-row w-full justify-center gap-10">
+          <div class="flex flex-col gap-1 items-center">
+            <h3 class="font-semibold">Naranja</h3>
+            <div
+              class="w-full md:w-32 h-24 rounded-md bg-orange-400 border"
+            ></div>
           </div>
-        
-    </section> 
 
-    <section class="bg-gray-100 p-6 shadow-md mt-0 pt-0 text-center">
-        <h2 class="text-2xl font-bold mb-4">Mapa del sitio</h2>
-        <img src="./images/mapa.jpg" alt="Imagen del mapa" class="w-full h-full object-cover rounded-lg ml-12">
-    </section>
-    
-    <section class="bg-orange-600 p-6 shadow-md mt-0 pt-0 text-center">
-        <h2 class="text-2xl font-bold mb-4">Protoripo de Figma</h2>
-    </section> 
+          <div class="flex flex-col gap-1 items-center">
+            <h3 class="font-semibold">Azul</h3>
+            <div
+              class="w-full md:w-32 h-24 rounded-md bg-blue-400 border"
+            ></div>
+          </div>
 
-    <section class="bg-gray-100 p-6 shadow-md mt-0 pt-0 ">
-        <h2 class="text-2xl mb-4">Organzación del equipo</h2>
-        <h2 class="text-2xl  mb-4">Roles y tareas</h2>
+          <div class="flex flex-col gap-1 items-center">
+            <h3 class="font-semibold">Verde</h3>
+            <div
+              class="w-full md:w-32 h-24 rounded-md bg-green-500 border"
+            ></div>
+          </div>
 
-    </section>
-</main>
+          <div class="flex flex-col gap-1 items-center">
+            <h3 class="font-semibold">Gris</h3>
+            <div
+              class="w-full md:w-32 h-24 rounded-md bg-gray-300 border"
+            ></div>
+          </div>
+        </div>
+      </section>
 
-<footer class="bg-orange-600 text-white flex justify-between p-4">
-    <h2>Grupo 3- Diseño y desarrollo web</h2>
-    <h2>UADE</h2>
-</footer>
+      <section
+        class="flex flex-col p-6 text-center items-center border-b-2 gap-4 border-orange-900"
+      >
+        <h2 class="text-2xl font-semibold underline">Mapa del sitio</h2>
+        <img
+          src="./images/mapa.jpg"
+          alt="Imagen del mapa"
+          class="w-full object-cover rounded-lg border"
+        />
+      </section>
 
-<script src="js/menu.js"></script>
-</body>
+      <section
+        class="flex flex-col p-6 text-center border-b-2 border-orange-900 gap-4"
+      >
+        <h2 class="text-2xl font-semibold underline">Prototipo de Figma</h2>
+        <a
+          href="https://www.figma.com/design/ix5GmLeLY8ChssTD1CWzFH/SitioParque?node-id=0-1&p=f&t=eYmX9rtdwHEHmc29-0"
+          target="_blank"
+          class="text-blue-500 underline"
+          >Ver Wireframe en Figma</a
+        >
+      </section>
 
+      <section class="flex flex-col items-center text-center p-6 gap-4">
+        <h2 class="text-2xl font-semibold underline">Organzación del equipo</h2>
+        <ul class="flex flex-col gap-2 text-xl">
+          <li>Jesús Espinoza: Diseñador UX/UI</li>
+          <li>Lucas Zibaitis: Maquetador Frontend</li>
+          <li>Facundo Tassone: Programador</li>
+          <li>Martín Iglesias: Programador</li>
+          <li>Santiago Conti: Programador</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="bg-orange-400 text-white flex justify-between p-4">
+      <h2>Grupo 3- Diseño y desarrollo web</h2>
+      <h2>UADE</h2>
+    </footer>
+
+    <script src="js/menu.js"></script>
+  </body>
 </html>
