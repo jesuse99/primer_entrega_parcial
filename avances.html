@@ -1,191 +1,155 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Avances - Pagina avances</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
 
-  <body class="flex flex-col h-screen">
-    <header>
-      <nav
-        class="bg-orange-400 text-white flex justify-between p-4 items-center"
-      >
-        <h1><a href="index.html">Extreme Park</a></h1>
-        <button id="menu-toggle" class="block md:hidden focus:outline-none">
-          <svg
-            class="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16m-7 6h7"
-            ></path>
-          </svg>
-        </button>
-        <ul id="menu" class="hidden md:flex gap-2">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="proyecto.html">Proyecto</a></li>
-          <li><a href="avances.html">Avances</a></li>
-          <li><a href="equipo.html">Equipo</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avances - Pagina avances</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
 
-    <main class="bg-gray-50">
-      <!-- Propuesta del proyecto -->
-      <section class="flex flex-col items-center text-center border-b border-orange-900 p-8 gap-6 bg-white rounded-xl shadow mb-8 mx-auto max-w-4xl">
-        <h2 class="text-3xl font-bold underline text-orange-500 mb-2">
-          Propuesta del proyecto
-        </h2>
-        <div class="grid md:grid-cols-2 gap-6 w-full">
-          <div class="bg-orange-50 rounded-lg p-4 shadow text-left">
-            <h3 class="font-semibold text-lg mb-2 text-orange-700">
-              Actividad principal
-            </h3>
-            <p>
-              Parque temático inspirado en la película Madagascar, ofreciendo
-              experiencias inmersivas, atracciones, espectáculos y actividades
-              para todas las edades.
-            </p>
-          </div>
-          <div class="bg-orange-50 rounded-lg p-4 shadow text-left">
-            <h3 class="font-semibold text-lg mb-2 text-orange-700">
-              Objetivos del sitio web
-            </h3>
-            <p>
-              Informar sobre el parque, mostrar atracciones, horarios, precios,
-              ubicación, novedades y permitir la compra de entradas online.
-            </p>
-          </div>
-          <div class="bg-orange-50 rounded-lg p-4 shadow text-left">
-            <h3 class="font-semibold text-lg mb-2 text-orange-700">
-              Concepto general y estrategias
-            </h3>
-            <p>
-              Experiencia lúdica y educativa basada en los personajes y
-              escenarios de Madagascar, con eventos temáticos, merchandising
-              exclusivo y actividades interactivas para familias y escuelas.
-            </p>
-          </div>
-          <div class="bg-orange-50 rounded-lg p-4 shadow text-left">
-            <h3 class="font-semibold text-lg mb-2 text-orange-700">
-              Público objetivo
-            </h3>
-            <p>
-              Familias con niños de 4 a 14 años, fanáticos de la película,
-              escuelas, turistas y público general interesado en parques de
-              diversiones y actividades recreativas.
-            </p>
-          </div>
+<body class="flex flex-col h-screen">
+  <header>
+    <nav class="bg-orange-400 text-white flex justify-between p-4 items-center">
+      <h1><a href="index.html">Extreme Park</a></h1>
+      <button id="menu-toggle" class="block md:hidden focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+      <ul id="menu" class="hidden md:flex gap-2">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="proyecto.html">Proyecto</a></li>
+        <li><a href="avances.html">Avances</a></li>
+        <li><a href="equipo.html">Equipo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="bg-gray-50">
+    <!-- Propuesta del proyecto -->
+    <section
+      class="flex flex-col items-center text-center border-b border-orange-900 p-8 gap-6 bg-white rounded-xl shadow mb-8 mx-auto max-w-4xl">
+      <h2 class="text-3xl font-bold underline text-orange-500 mb-2">
+        Propuesta del proyecto
+      </h2>
+      <div class="grid md:grid-cols-2 gap-6 w-full">
+        <div class="bg-orange-50 rounded-lg p-4 shadow text-left">
+          <h3 class="font-semibold text-lg mb-2 text-orange-700">
+            Actividad principal
+          </h3>
+          <p>
+            Parque temático inspirado en la película Madagascar, ofreciendo
+            experiencias inmersivas, atracciones, espectáculos y actividades
+            para todas las edades.
+          </p>
         </div>
-      </section>
-
-      <!-- Identidad visual -->
-      <section class="flex flex-col items-center gap-4 p-8 text-center border-b-2 border-orange-900 bg-white rounded-xl shadow mb-8 mx-auto max-w-4xl">
-        <h2 class="text-3xl font-bold underline text-orange-500 mb-2">
-          Identidad visual
-        </h2>
-        <div class="flex flex-col md:flex-row w-full justify-center gap-10">
-          <div class="flex flex-col gap-1 items-center">
-            <h3 class="font-semibold">Naranja</h3>
-            <div
-              class="w-full md:w-32 h-24 rounded-md bg-orange-400 border"
-            ></div>
-          </div>
-
-          <div class="flex flex-col gap-1 items-center">
-            <h3 class="font-semibold">Azul</h3>
-            <div
-              class="w-full md:w-32 h-24 rounded-md bg-blue-400 border"
-            ></div>
-          </div>
-
-          <div class="flex flex-col gap-1 items-center">
-            <h3 class="font-semibold">Verde</h3>
-            <div
-              class="w-full md:w-32 h-24 rounded-md bg-green-500 border"
-            ></div>
-          </div>
-
-          <div class="flex flex-col gap-1 items-center">
-            <h3 class="font-semibold">Gris</h3>
-            <div
-              class="w-full md:w-32 h-24 rounded-md bg-gray-300 border"
-            ></div>
-          </div>
+        <div class="bg-orange-50 rounded-lg p-4 shadow text-left">
+          <h3 class="font-semibold text-lg mb-2 text-orange-700">
+            Objetivos del sitio web
+          </h3>
+          <p>
+            Informar sobre el parque, mostrar atracciones, horarios, precios,
+            ubicación, novedades y permitir la compra de entradas online.
+          </p>
         </div>
-      </section>
+        <div class="bg-orange-50 rounded-lg p-4 shadow text-left">
+          <h3 class="font-semibold text-lg mb-2 text-orange-700">
+            Concepto general y estrategias
+          </h3>
+          <p>
+            Experiencia lúdica y educativa basada en los personajes y
+            escenarios de Madagascar, con eventos temáticos, merchandising
+            exclusivo y actividades interactivas para familias y escuelas.
+          </p>
+        </div>
+        <div class="bg-orange-50 rounded-lg p-4 shadow text-left">
+          <h3 class="font-semibold text-lg mb-2 text-orange-700">
+            Público objetivo
+          </h3>
+          <p>
+            Familias con niños de 4 a 14 años, fanáticos de la película,
+            escuelas, turistas y público general interesado en parques de
+            diversiones y actividades recreativas.
+          </p>
+        </div>
+      </div>
+    </section>
 
-      <!-- Logo del parque temático -->
-      <section class="flex flex-col items-center gap-4 p-8 text-center border-b-2 border-orange-900 bg-white rounded-xl shadow mb-8 mx-auto max-w-4xl">
-        <h2 class="text-3xl font-bold underline text-orange-500 mb-2">
-          Logo del parque temático
-        </h2>
-        <img
-          src="./images/logo.jpeg"
-          alt="Logo del parque temático"
-          class="w-40 h-40 bg-white mb-4"
-        />
-        <p class="text-lg max-w-2xl text-gray-700">
-          El logo de Extreme Park representa la energía, diversión y aventura
-          inspiradas en la película Madagascar. Sus colores vibrantes y formas
-          dinámicas transmiten la esencia lúdica del parque, invitando a familias
-          y fanáticos a vivir una experiencia inolvidable.
-        </p>
-      </section>
+    <!-- Identidad visual -->
+    <section
+      class="flex flex-col items-center gap-4 p-8 text-center border-b-2 border-orange-900 bg-white rounded-xl shadow mb-8 mx-auto max-w-4xl">
+      <h2 class="text-3xl font-bold underline text-orange-500 mb-2">
+        Identidad visual
+      </h2>
+      <div class="flex flex-col md:flex-row w-full justify-center gap-10">
+        <div class="flex flex-col gap-1 items-center">
+          <h3 class="font-semibold">Naranja</h3>
+          <div class="w-full md:w-32 h-24 rounded-md bg-[#fb923c] border"></div>
+        </div>
 
-      <!-- Mapa del sitio -->
-      <section class="flex flex-col p-8 text-center items-center border-b-2 gap-4 border-orange-900 bg-white rounded-xl shadow mb-8 mx-auto max-w-4xl">
-        <h2 class="text-3xl font-bold underline text-orange-500 mb-2">
-          Mapa del sitio
-        </h2>
-        <img
-          src="./images/mapa.jpeg"
-          alt="Imagen del mapa"
-          class="w-full object-cover rounded-lg border max-w-2xl"
-        />
-      </section>
+        <div class="flex flex-col gap-1 items-center">
+          <h3 class="font-semibold">Violeta</h3>
+          <div class="w-full md:w-32 h-24 rounded-md bg-[#af52de] border"></div>
+        </div>
 
-      <!-- Prototipo de Figma -->
-      <section class="flex flex-col p-8 text-center border-b-2 border-orange-900 gap-4 bg-white rounded-xl shadow mb-8 mx-auto max-w-4xl">
-        <h2 class="text-3xl font-bold underline text-orange-500 mb-2">
-          Prototipo de Figma
-        </h2>
-        <a
-          href="https://www.figma.com/design/ix5GmLeLY8ChssTD1CWzFH/SitioParque?node-id=0-1&p=f&t=eYmX9rtdwHEHmc29-0"
-          target="_blank"
-          class="text-blue-500 underline"
-          >Ver Wireframe en Figma</a
-        >
-      </section>
+      </div>
+    </section>
 
-      <!-- Organización del equipo -->
-      <section class="flex flex-col items-center text-center p-8 gap-4 bg-white rounded-xl shadow mx-auto max-w-4xl">
-        <h2 class="text-3xl font-bold underline text-orange-500 mb-2">
-          Organización del equipo
-        </h2>
-        <ul class="flex flex-col gap-2 text-xl">
-          <li>Jesús Espinoza: Diseñador UX/UI</li>
-          <li>Lucas Zibaitis: Maquetador Frontend</li>
-          <li>Facundo Tassone: Programador</li>
-          <li>Martín Iglesias: Programador</li>
-          <li>Santiago Conti: Programador</li>
-        </ul>
-      </section>
-    </main>
+    <!-- Logo del parque temático -->
+    <section
+      class="flex flex-col items-center gap-4 p-8 text-center border-b-2 border-orange-900 bg-white rounded-xl shadow mb-8 mx-auto max-w-4xl">
+      <h2 class="text-3xl font-bold underline text-orange-500 mb-2">
+        Logo del parque temático
+      </h2>
+      <img src="./images/logo.svg" alt="Logo del parque temático" class="w-1/2 h-1/2 bg-white mb-4" />
+      <p class="text-lg max-w-2xl text-gray-700">
+        El logo de Extreme Park representa la energía, diversión y aventura
+        inspiradas en la película Madagascar. Sus colores vibrantes y formas
+        dinámicas transmiten la esencia lúdica del parque, invitando a familias
+        y fanáticos a vivir una experiencia inolvidable.
+      </p>
+    </section>
 
-    <footer class="bg-orange-400 text-white flex justify-between p-4">
-      <h2>Grupo 3- Diseño y desarrollo web</h2>
-      <h2>UADE</h2>
-    </footer>
+    <!-- Mapa del sitio -->
+    <section
+      class="flex flex-col p-8 text-center items-center border-b-2 gap-4 border-orange-900 bg-white rounded-xl shadow mb-8 mx-auto max-w-4xl">
+      <h2 class="text-3xl font-bold underline text-orange-500 mb-2">
+        Mapa del sitio
+      </h2>
+      <img src="./images/mapa.png" alt="Imagen del mapa" class="w-full object-cover rounded-lg border max-w-2xl" />
+    </section>
 
-    <script src="js/menu.js"></script>
-  </body>
+    <!-- Prototipo de Figma -->
+    <section
+      class="flex flex-col p-8 text-center border-b-2 border-orange-900 gap-4 bg-white rounded-xl shadow mb-8 mx-auto max-w-4xl">
+      <h2 class="text-3xl font-bold underline text-orange-500 mb-2">
+        Prototipo de Figma
+      </h2>
+      <a href="https://www.figma.com/design/ix5GmLeLY8ChssTD1CWzFH/SitioParque?node-id=0-1&p=f&t=eYmX9rtdwHEHmc29-0"
+        target="_blank" class="text-blue-500 underline">Ver Wireframe en Figma</a>
+    </section>
+
+    <!-- Organización del equipo -->
+    <section class="flex flex-col items-center text-center p-8 gap-4 bg-white rounded-xl shadow mx-auto max-w-4xl">
+      <h2 class="text-3xl font-bold underline text-orange-500 mb-2">
+        Organización del equipo
+      </h2>
+      <ul class="flex flex-col gap-2 text-xl">
+        <li>Jesús Espinoza: Diseñador UX/UI</li>
+        <li>Facundo Tassone: Maquetador Frontend</li>
+        <li>Martín Iglesias: Programador Frontend</li>
+        <li>Santiago Conti: Programador Frontend</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-orange-400 text-white flex justify-between p-4">
+    <h2>Grupo 3- Diseño y desarrollo web</h2>
+    <h2>UADE</h2>
+  </footer>
+
+  <script src="js/menu.js"></script>
+</body>
+
 </html>
